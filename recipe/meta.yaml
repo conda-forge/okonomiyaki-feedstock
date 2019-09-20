@@ -1,5 +1,5 @@
 {% set name = "okonomiyaki" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5cd633ce06952bb5234befb9dc2d4f39182bc1d0444b8d3b4b99c7d11629a3d8
+  sha256: 5b76d3823d6c128f9f088b619dee926ba1bead781b169606f2d6ddf72de5f2fb
 
 build:
   noarch: python
